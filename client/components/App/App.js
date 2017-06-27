@@ -1,7 +1,7 @@
 import React from 'react';
-import Board from '../Board/Board';
-import Result from '../Result/Result';
-import './App.css';
+import Board from '../board/Board';
+import Result from '../result/Result';
+import './app.css';
 
 const App = () => {
   return (
