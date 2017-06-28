@@ -10,3 +10,11 @@ export const addSymbol = (row, position, symbol) => ({
 export const startAgain = () => ({
   type: 'START_AGAIN'
 });
+
+// get token from api
+export const getToken = (username, password, domain) => ({
+	type: 'GET_TOKEN',
+	username,
+	password,
+	domain
+})

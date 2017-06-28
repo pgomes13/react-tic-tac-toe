@@ -1,15 +1,15 @@
 import React from 'react';
 import Board from '../board/Board';
 import Result from '../result/Result';
-import './app.css';
+import './game.css';
 
-const App = () => {
+const Game = () => {
   return (
-    <div className="app">
+    <div className="game">
       <Result />
       <Board />
     </div>
   );
 }
 
-export default App;
+export default Game;
