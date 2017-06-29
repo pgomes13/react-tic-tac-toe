@@ -9,7 +9,9 @@ const Login = () => {
 				<form className="login-form">
 					<input type="text" placeholder="username"/>
 					<input type="password" placeholder="password"/>
-					<button>login</button>
+					<button>
+						<Link to={`/game`}>login</Link>
+					</button>
 					<p className="message">Not registered? <Link to={`/signup`}>Create a new user</Link></p>
 				</form>
 			</div>

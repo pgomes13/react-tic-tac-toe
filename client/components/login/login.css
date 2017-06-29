@@ -40,6 +40,10 @@
   transition: all 0.3 ease;
   cursor: pointer;
 }
+.form button a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .form button:hover,.form button:active,.form button:focus {
   background: #43A047;
 }
